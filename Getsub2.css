@@ -124,10 +124,14 @@ a:hover{
 }
 
 .google{
-    width: 160px;
+    display: inline-block;
+    border-radius: 32px;
+    width: 150px;
 }
 .google2{
-    width: 160px;
+    display: inline-block;
+    border-radius: 32px;
+    width: 150px;
 }
 .go{
     display: flex;
@@ -140,15 +144,17 @@ a:hover{
     color: #0e9b78; 
 }
 
-.mainsection{
+.h1power{
     text-align: center;
-    font-size: 35px;
+    font-size: 64px;
+    font-weight: 700;
     font-family: "Kanit", sans-serif;
 }
-.next1{
+.pofpower{
     font-size: 20px;
     font-family: "Jost", sans-serif;
     font-weight: 500;
+    text-align: center;
 }
 
 .diva{
@@ -169,44 +175,46 @@ a:hover{
 }
 .mainmain{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 2%;
+    margin-top: 0px;
+    gap: 48px;
+}
+.mainmainicons{
+    display: flex;
     flex-direction: column;
     border-width: 1.5px;
     border-radius: 24px;
     border-style: solid;
     border-color: #dadeff;
     background-color: #f4f5ff;
-    position: relative;
     padding: 16px;
     margin: 20px;
-}
-.mainmainicons{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    gap: 25px;
+    width: 60%;
 }
 .mainmaincontent{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   padding-left: 55px;
-   
+    gap: 100px;
 }
-.mainmaincontent h1{
-    font-size: 22px;
-    font-weight: 700;
-    font-family: "Jost", sans-serif;
-    color: #0114b5;
+
+
+.icon2{
     
-
 }
-.mainmaincontent p{
-    font-size: 16px;
-    font-weight: 500;
+.icon2 h1{
+    text-align: left;
+    color: #0114b5;
+}
+.icon{
+    display: flex;
+    float: left;
+}
+.icon2 h1{
+    font-size: 28px;
+    font-weight: 600;
     font-family: "Jost", sans-serif;
-    color: #2f2f2f;
-
 }
+
  .servbutton{
     display: flex;
     border-width: 1.5px;
@@ -219,6 +227,7 @@ a:hover{
     font-size: 18px;
     font-weight: 700;
     font-family: "Jost", sans-serif;
+    width: 13%;
  }
  .show{
     font-size: 18px;
@@ -229,10 +238,7 @@ a:hover{
  }
 
  .mainmain2{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    text-align: left;
+    width: 40%;
  }
  
  .gate{
@@ -246,18 +252,16 @@ a:hover{
     color: #0114b5;
  }
 
- .servbutton2{
-    display: flex;
-     font-size: 18px;
-    font-weight: 600;
-    font-family: "Jost", sans-serif;
-    text-align: right;
- }
-
- .servbutton2 a{
+ .lin:hover{
+    color: inherit;
+    background-color: transparent;
     text-decoration: none;
-    background-color: none;
- } */
+ }
+ .lin:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
  
  .smilecontain{
     display: flex;
@@ -270,8 +274,11 @@ a:hover{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    width: 50%;
     align-items: start;
+ }
+ .smilinimg{
+    width: 30px;
  }
  .feat{
     border-width: 1.5px;
@@ -286,27 +293,6 @@ a:hover{
     font-family: "Jost", sans-serif;
     text-align: left;
     margin-top: 45px;
-    width: 20%;
+    width: 10%;
 
  }
- 
-
-
- /* .early{
-    font-size: 44px;
-    font-weight: 600;
-    font-family: "Kanit", sans-serif;
-    color: #131313;
- }
- .sup{
-    color: #0e9b78;
- }
- .soft{
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Jost", sans-serif;
-    color: #2f2f2f;
- }
- .grow{
-    width: 100%;
- } */

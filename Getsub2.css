@@ -183,7 +183,6 @@ a:hover{
 }
 .mainmainicons{
     display: flex;
-    flex-direction: column;
     border-width: 1.5px;
     border-radius: 24px;
     border-style: solid;
@@ -191,30 +190,38 @@ a:hover{
     background-color: #f4f5ff;
     padding: 16px;
     margin: 20px;
-    width: 60%;
+    width: 100%;
 }
 .mainmaincontent{
-    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
 }
 
-
-.icon2{
-    
-}
 .icon2 h1{
-    text-align: left;
     color: #0114b5;
+}
+.icon2 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
 }
 .icon{
     display: flex;
     float: left;
+    gap: 8px;
 }
 .icon2 h1{
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: "Jost", sans-serif;
 }
 
+.lol{
+    display: flex;
+    height: 40px;
+}
  .servbutton{
     display: flex;
     border-width: 1.5px;
@@ -227,26 +234,24 @@ a:hover{
     font-size: 18px;
     font-weight: 700;
     font-family: "Jost", sans-serif;
-    width: 13%;
+    width: 25%;
  }
  .show{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Jost", sans-serif;
     color: #2f2f2f;
     text-align: right;
- }
-
- .mainmain2{
-    width: 40%;
+    line-height: 32px;
  }
  
  .gate{
-    font-size: 44px;
+    font-size: 64px;
     font-weight: 600;
     font-family: "Kanit", sans-serif;
     color: #131313;
     text-align: right;
+    line-height: 72px;
  }
  .gate2{
     color: #0114b5;
@@ -262,7 +267,14 @@ a:hover{
     text-decoration: none;
     background-color: transparent;
  }
- 
+
+ .servbutton2{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+
+ }
  .smilecontain{
     display: flex;
     align-items: center;
@@ -293,6 +305,289 @@ a:hover{
     font-family: "Jost", sans-serif;
     text-align: left;
     margin-top: 45px;
-    width: 10%;
+    width: 25%;
 
+ }
+ .soft{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    line-height: 72px;
+ }
+ .soft2{
+    color: #0e9b78;
+ }
+
+ .smile p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    line-height: 28px;
+ }
+.Support:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .Support:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+ .Support{
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 12px 24px;
+    border-color: #0e9b78;
+    background-color: #0e9b78;
+    color: #f6f6f6;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    line-height: 28px;
+    margin-top: 16px;
+ }
+.feat2{
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color: #e5e5e5;
+    padding: 8px 24px;
+    background-color: #f2f2f2;
+    align-items: end;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    text-align: left;
+    margin-top: 45px;
+    width: 25%;
+
+ }
+
+ .locked{
+    width: 100%;
+ }
+
+ .maincontain{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    gap: 48px;
+ }
+.seam{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    line-height: 72px;
+    color: #131313;
+    
+}
+.seam2{
+    color: #0e9b78;
+}
+
+.mainlock p{
+     font-size: 20px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #2f2f2f;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.learn:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .learn:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+
+ .learn{
+    display: flex;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color: #0f26eb;
+    padding: 8px 24px;
+    background-color: #0f26eb;
+    color: #f6f6f6;
+    padding: 12px 24px;
+    gap: 10px;
+    margin-top: 15px;
+    width: 39%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    line-height: 32px;
+ }
+
+ .whycontain{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    gap: 48px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color: #ffeba9;
+    background-color: #fff4cf;
+    margin-top: 48px;
+    padding: 24px 16px;
+ }
+ .mainwhy{
+    align-items: center;
+    padding: 12px 24px;
+ }
+
+ .why1{
+     font-size: 64px;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    line-height: 72px;
+    color: #131313;
+ }
+
+ .why2{
+    color: #0e9b78;
+ }
+ .whycontain p{
+     font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    line-height: 28px;
+ }
+
+ .fifty{
+    width: 540px;
+ }
+ .learn2:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .learn2:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+
+ .learn2{
+    display: flex;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color: #0f26eb;
+    padding: 8px 24px;
+    background-color: #0f26eb;
+    color: #f6f6f6;
+    padding: 12px 24px;
+    gap: 10px;
+    margin-top: 15px;
+    width: 43%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    line-height: 32px;
+ }
+ 
+ .element{
+    background-color: #131313;
+ }
+
+ .resource{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+ }
+
+ .ref:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .ref:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+ .ref{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: #f6f6f6;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+ }
+
+ .just:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .just:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+
+ .mail{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+ }
+
+ .footercontain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    color: #f6f6f6;
+    padding-top: 64px;
+    gap: 50px;
+ }
+ .just{
+    color: #e5e5e5;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+ }
+
+ .footermain{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+ }
+ .get{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 28px;
+ }
+
+ .element{
+    position: absolute;
+    
+ }
+
+ .log{
+    color: #e5e5e5;
+ }
+ .copy{
+    color: #e5e5e5;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
  }

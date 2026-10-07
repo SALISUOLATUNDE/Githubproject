@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetSub</title>
+</head>
+<style>
+    body{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+    .bg{
+        width: 170px;
+    }
+    .logincontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 10px;
+    }
+    .im{
+        width: 200px;
+    }
+    .formcontainer{
+        border-width: 1.5px;
+        border-style: solid;
+        border-radius: 32px;
+        border-color: #dbd3d3;
+        background-color: #fff9f9;
+        padding: 10px;
+        width: 420px;
+        height: 500px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .log{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    }
+    .log2{
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: #555555;
+    }
+    input{
+        border: 1px solid;
+        border-radius: 15px;
+        border-color: #e5e5e5;
+        background-color: #e5e5e5;
+        padding: 10px;
+        width: 90%;
+        margin-top: -20px;
+    }
+    .res{
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+        text-decoration: none;
+    }
+    .sign{
+        border: 1px solid;
+        border-radius: 32px;
+        border-color: #0114b5;
+        background-color: #0114b5;
+        padding: 10px;
+        width: 95%;
+        color: #fff9f9;
+    }
+    .mainim{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+        width: 95%;
+    }
+    .ok{
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+        text-decoration: none;
+    }
+    .imgs{
+        border-radius: 32px;
+        height: 520px;
+        width: 400px;
+        position: absolute;
+    }
+   .imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .imgcontent{
+    position: relative;
+   }
+   .imgcontent h1{
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 230px;
+    color: #f6f6f6;
+   }
+   .new{
+    float: right;
+    margin-top: -30px;
+    margin-left: 200px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    border-width: 1px;
+    border-color: #f6f6f6;
+    color: #f6f6f6;
+    background-color: #f6f6f666;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+   }
+   .par{
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    color: #dddddd;
+   }
+   form h5{
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+   }
+   form p{
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #737373;
+   }
+</style>
+<body>
+   <div class="maincontainer">
+        <img class="bg" src="ASSETS2/getsub login.png" alt="##">
+    </div>
+    <div class="logincontainer">
+        <div class="formcontainer">
+            <img class="logo" src="ASSETS2/GETSUB LOGO.png" alt="##">
+            <h1 class="log">Hello. Welcome Back!</h1>
+            <p class="log2">Enter your registered email and password to securely log in.</p>
+            <form>
+                <h5>Email address</h5>
+                <input type="text" name="text" placeholder="Placeholder@email.com" required>
+                <h5>Password</h5>
+                <input type="password" name="password" placeholder="⚫⚫⚫⚫⚫⚫⚫⚫" required>
+                <p> Forgot password? <a href="##" class="res">Reset it</a></p>
+                <button class="sign"> Sign In</button>
+                <div class="mainim">
+                    <img class="im" src="ASSETS2/play-store.jpg" alt="##">
+                    <img class="im" src="ASSETS2/apple-store.jpg" alt="##">
+                </div>
+                <p>
+                    Don't have an account yet? Click on <a href="##" class="ok">Sign Up</a> to open one in a few minutes.
+                </p>
+            </form>
+        </div>
+        <div class="imgcontainer">
+            <img class="imgs" src="ASSETS2/login img.png" alt="">
+            <div class="imgcontent">
+                <button class="new">Sign In</button>
+                <h1>Save money on bill <br> payments</h1>
+                <p class="par">With our innovative service, effortlessly <br>pay for data, airtime at convenient <br> rates, putting money back in your hands.</p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

@@ -625,4 +625,28 @@ a:hover{
     background-color: transparent;
  }
 
+ .but12{
+   color: #dadeff;
+ }
+ .but12:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .but12:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
+ 
+.gog:hover{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .gog:hover::after{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+ }
  
